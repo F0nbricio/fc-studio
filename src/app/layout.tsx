@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   title: 'FC Studio | Engenharia Web & Soluções Digitais Sob Medida',
   description:
     'Sites profissionais sob demanda, modulados, otimizados e seguros. Arquitetura moderna com verificação rigorosa e suporte direto.',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
