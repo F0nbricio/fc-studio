@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description:
     'Sites profissionais sob demanda, modulados, otimizados e seguros. Arquitetura moderna com verificação rigorosa e suporte direto.',
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
+    icon: [
+      { url: '/fc-icon.svg?v=2', type: 'image/svg+xml' },
+      { url: '/favicon.ico?v=2' },
+    ],
+    shortcut: '/fc-icon.svg?v=2',
+    apple: '/fc-icon.svg?v=2',
   },
 };
 
