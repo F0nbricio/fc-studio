@@ -10,6 +10,7 @@ const PROJECT_TYPES = [
   'Loja Virtual / E-commerce',
   'Portfólio Profissional',
   'Sistema Web / Agendamento / Catálogo',
+  'Aplicativo Mobile (B2C / B2B)',
   'Outro Projeto Sob Demanda',
 ];
 

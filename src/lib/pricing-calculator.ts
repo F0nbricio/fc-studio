@@ -19,7 +19,12 @@ export function mapProjectTypeToTier(projectType: string): ProjectTier {
     normalized.includes('loja') ||
     normalized.includes('e-commerce') ||
     normalized.includes('sistema') ||
-    normalized.includes('catálogo')
+    normalized.includes('catálogo') ||
+    normalized.includes('aplicativo') ||
+    normalized.includes('app') ||
+    normalized.includes('mobile') ||
+    normalized.includes('b2c') ||
+    normalized.includes('b2b')
   ) {
     return 'custom_system_ecommerce';
   }
